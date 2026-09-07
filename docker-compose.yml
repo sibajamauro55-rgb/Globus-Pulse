@@ -1,0 +1,11 @@
+services:
+  pulse:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./outbound:/app/outbound
+      - ./config:/app/config
+    ports:
+      - "8088:8088"
+    command: python -m pulse worker

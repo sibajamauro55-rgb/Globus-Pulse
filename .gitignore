@@ -1,0 +1,8 @@
+.env
+data/
+outbound/
+__pycache__/
+*.pyc
+.venv/
+*.png
+.pytest_cache/
