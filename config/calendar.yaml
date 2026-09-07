@@ -1,0 +1,35 @@
+# Calendario interno de Pulse.
+# Una sola configuración: el motor genera la cola y publica.
+
+timezone: America/Mexico_City
+slots_per_day: 1
+lookahead_days: 7
+min_hours_between_posts: 18
+
+# Mix comercial (suma ≈ 1.0). El motor rota para no repetir categoría.
+mix:
+  educate: 0.22
+  problem: 0.18
+  capability: 0.16
+  commercial: 0.18
+  cta: 0.14
+  use_case: 0.12
+
+# Plataformas por slot. El primer destino real suele ser webhook o linkedin.
+default_platforms:
+  - webhook
+  - web
+
+weekday_plan:
+  mon: { categories: [problem, commercial], formats: [post] }
+  tue: { categories: [educate, capability], formats: [post] }
+  wed: { categories: [use_case, cta], formats: [post] }
+  thu: { categories: [educate, commercial], formats: [post, banner] }
+  fri: { categories: [cta, capability], formats: [post] }
+  sat: { categories: [educate], formats: [post] }
+  sun: { categories: [problem, cta], formats: [post] }
+
+campaign:
+  code: always-on-globus
+  name: Presencia continua Globus
+  objective: Conseguir prospectos hacia /crear-propuesta

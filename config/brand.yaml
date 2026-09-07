@@ -1,0 +1,94 @@
+# Perfil de marca y marketing de GLOBUS.
+# Fuente visual de referencia: GIS 1.0 (Ink / Paper / Meridian).
+# Este archivo vive SOLO en Pulse. No modifica Core ni Core-Web.
+
+name: Globus
+legal_name: Globus
+tagline: El sistema operativo de tu empresa
+signature: Globus — el sistema operativo de tu empresa
+description: >
+  Globus es el sistema operativo de la empresa: CRM, inventario, tickets,
+  ventas, WhatsApp, IA y automatizaciones en un solo producto multi-tenant.
+  Se configura una vez y opera el negocio sin parches sueltos.
+
+what_we_sell:
+  - Sistema operativo empresarial modular
+  - CRM y pipeline de ventas
+  - Inventario y compras
+  - Tickets y field service
+  - WhatsApp operativo
+  - Automatizaciones e IA aplicada
+  - Onboarding con propuesta comercial
+
+audience:
+  - Dueños de PyME que ya no caben en hojas de cálculo
+  - Equipos comerciales que pierden follow-up
+  - Operaciones que viven en WhatsApp y Excel
+  - Empresas que quieren un sistema, no otra app suelta
+
+value_proposition: >
+  Un solo sistema para vender, operar y dar seguimiento.
+  Módulos enchufables. Multi-tenant. Listo para producir clientes.
+
+tone:
+  - directo
+  - comercial
+  - claro
+  - profesional
+  - sin humo
+
+forbidden:
+  - "sinergia"
+  - "disruptivo"
+  - "revolucionamos"
+  - "hackea tu"
+  - "gurú"
+  - emojis excesivos
+  - promesas milagrosas
+
+cta_library:
+  - Crea tu propuesta
+  - Empieza con Globus
+  - Arma tu operación
+  - Solicita una propuesta
+  - Pasa de Excel a sistema
+
+primary_cta: Crea tu propuesta
+conversion_path: /crear-propuesta
+url: https://globus.app
+conversion_url: https://globus.app/crear-propuesta
+
+hashtags:
+  - Globus
+  - OperacionEmpresarial
+  - CRM
+  - Automatizacion
+  - PyME
+
+identity:
+  colors:
+    ink: "#0B1018"
+    ink_muted: "#6B7280"
+    paper: "#F0F1F3"
+    paper_alt: "#E6E8EC"
+    meridian: "#2A6B62"
+    meridian_bright: "#3D8F82"
+    line: "#D5D8DE"
+    surface_dark: "#161C26"
+    danger: "#C24141"
+    ok: "#2A6B62"
+  type:
+    display: DejaVu Sans
+    sans: DejaVu Sans
+    mono: DejaVu Sans
+  space: { xs: 8, sm: 16, md: 24, lg: 40, xl: 64 }
+  radius: { sm: 4, md: 8, lg: 16 }
+  logo_safe_pct: 0.08
+
+platforms:
+  x: { max_chars: 260, hashtags_max: 3, frame: x_landscape }
+  linkedin: { max_chars: 1200, hashtags_max: 4, frame: li_landscape }
+  instagram: { max_chars: 500, hashtags_max: 5, frame: ig_square }
+  facebook: { max_chars: 500, hashtags_max: 4, frame: fb_landscape }
+  web: { max_chars: 800, hashtags_max: 4, frame: web_banner }
+  webhook: { max_chars: 1200, hashtags_max: 4, frame: li_landscape }

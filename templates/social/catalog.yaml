@@ -1,0 +1,48 @@
+# Plantillas visuales reutilizables. Todas comparten tokens de marca.
+# Cambiar un color en brand.yaml cambia todas las piezas.
+
+templates:
+  service_ad:
+    label: Anuncio de servicio
+    layout: split_accent
+    kicker: SERVICIO
+  problem_solution:
+    label: Problema → solución
+    layout: two_blocks
+    kicker: PROBLEMA
+  tip:
+    label: Tip
+    layout: numbered
+    kicker: TIP
+  stat:
+    label: Dato
+    layout: big_number
+    kicker: DATO
+  benefit:
+    label: Beneficio
+    layout: split_accent
+    kicker: BENEFICIO
+  use_case:
+    label: Caso de uso
+    layout: stacked
+    kicker: CASO
+  cta:
+    label: Llamada a la acción
+    layout: centered_cta
+    kicker: ACCIÓN
+  promo:
+    label: Promoción
+    layout: centered_cta
+    kicker: PROPUESTA
+  compare:
+    label: Comparación
+    layout: two_blocks
+    kicker: ANTES / DESPUÉS
+  educate:
+    label: Educativo
+    layout: numbered
+    kicker: SISTEMA
+  institutional:
+    label: Institucional
+    layout: stacked
+    kicker: GLOBUS
