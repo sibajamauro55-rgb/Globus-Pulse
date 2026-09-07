@@ -1,0 +1,5 @@
+templates:
+  one_pager:
+    label: Flyer servicio
+    layout: flyer
+    kicker: GLOBUS

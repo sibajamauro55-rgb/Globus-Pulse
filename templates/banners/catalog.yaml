@@ -1,0 +1,9 @@
+templates:
+  web_strip:
+    label: Banner web
+    layout: banner_strip
+    kicker: GLOBUS
+  offer_bar:
+    label: Barra de oferta
+    layout: banner_strip
+    kicker: PROPUESTA

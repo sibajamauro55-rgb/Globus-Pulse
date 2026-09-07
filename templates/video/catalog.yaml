@@ -1,0 +1,6 @@
+# Arquitectura lista para video. v1 genera script + beats, no render FFmpeg.
+templates:
+  short_hook:
+    label: Video corto 15-30s
+    scenes: [hook, problem, system, cta]
+    max_seconds: 30
